@@ -1,25 +1,8 @@
-# Physics_Sim_Py
+# Imagematching_dncnn
 
-"Physics_Sim_Py" is a tutorial of physics simulations with Python.
+## Overview
+Using DnCNN to remove noise from images, and then performing image matching.
 
-# DEMO
-
-You can learn how to making cute physics simulations (looks retro game).
-
-![](https://cpp-learning.com/wp-content/uploads/2019/05/pyxel-190505-161951.gif)
-
-This animation is a "Cat playing on trampoline"!
-You can get basic skills for making physics simulations.
-
-# Features
-
-Physics_Sim_Py used [pyxel](https://github.com/kitao/pyxel) only.
-
-```python
-import pyxel
-```
-[Pyxel](https://github.com/kitao/pyxel) is a retro game engine for Python.
-You can feel free to enjoy making pixel art style physics simulations.
 
 # Requirement
 
@@ -50,22 +33,16 @@ Run "demo.py"
 
 ```bash
 python demo.py
+
+
 ```
 
-# Note
+## Training 
+ After setting up the folder for the dataset, the training can be started right away:
 
-I don't test environments under Linux and Mac.
+ ```bash
+python train.py 
+```
 
-# Author
 
-* Hayabusa
-* R&D Center
-* Twitter : https://twitter.com/Cpp_Learning
 
-# License
-
-"Physics_Sim_Py" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
-
-Enjoy making cute physics simulations!
-
-Thank you!
