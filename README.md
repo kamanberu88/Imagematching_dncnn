@@ -12,6 +12,8 @@ Python 3.9+ is recommended for running our code. [Conda](https://docs.conda.io/e
 - Numpy
 - Matplotlib
 - skimage
+- pandas
+- tqdm
 
 
 
