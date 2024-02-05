@@ -106,13 +106,6 @@ class NoisyCustomDataset(Dataset):
     def __len__(self):
         return len(self.img_names)
 
-# 変換を定義（必要に応じて調整）
-transform = transforms.Compose([
-    transforms.ToTensor(),
-])
-
-# 自作のデータセットを作成
-dataset = NoisyCustomDataset
 
 
 
